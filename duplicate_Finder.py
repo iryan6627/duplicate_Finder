@@ -3,7 +3,7 @@ storage_Dictionary = {};
 dupe_Finder = {};
 parent = 'C:/Users/ryan6/Documents/python_related/';
 files_To_Hash = filter(os.path.isfile, os.listdir());
-
+#this is to test if the file has been updated.
 #Creates and obtains the hashes for each video in the directory
 for video in files_To_Hash:
     with open(os.path.join(parent, video), 'rb') as content_Stream:
